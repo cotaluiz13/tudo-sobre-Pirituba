@@ -1,0 +1,92 @@
+html{
+    scroll-behavior: smooth;
+}
+.infos1, .infos2{
+    padding: 10vw;
+    text-align: center;
+}
+.infos2{
+    padding-top: 0;
+}
+.infos1 img{
+    width: 100%;
+    height: 35vw;
+    object-fit: cover;
+}
+.infos1 .box{
+    position: absolute;
+    left: calc(50% - 25vw);
+    width: 50vw;
+    height: 15vw;
+    margin-top: -5vw;
+    background-color: #85B7ED;
+}
+.infos1 .box > *{
+    position: relative;
+    text-transform: uppercase; 
+    top: 2vw;
+}
+.infos1 h2{
+    font-size: 2.3vw;
+}
+.infos1 p{
+    width: 25vw;
+    color: rgb(78, 78, 78);
+    margin: auto;
+    font-size: 1vw;
+}
+.infos2 h2{
+    text-transform: uppercase;
+    font-size: 3vw;
+}
+table img{
+    width: 35vw;
+}
+table p{
+    text-align: justify;
+    font-size: 1.2vw;
+    padding-left: 10px;
+}
+.mensagem{
+    display: table;
+    background-color: #B7CADE;
+}
+.mensagem div{
+    width: 50%;
+    display: table-cell;
+}
+.mensagem img{
+    width: 100%;
+}
+.mensagem div:nth-child(2){
+    vertical-align: middle;
+}
+.mensagem p{
+    font-size: 3vw;
+}
+.mensagem div div{
+    width: 60%;
+    text-align: center;
+}
+.indice{
+    padding: 1vw;
+    z-index: 3;
+    position: fixed;
+    bottom: 0;
+    color: rgb(255, 255, 255);
+    background-color: rgba(54, 60, 78, 0.863);
+    width: 25%;
+    margin: 20px;
+    border-radius: 0.2vw;
+}
+.indice li{
+    padding: 0.3vw;
+}
+.indice a{
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 1vw;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}

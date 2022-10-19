@@ -1,0 +1,39 @@
+footer{
+    position: relative;
+    background-color: #182634;
+}
+footer > *{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logoRodape img{
+    width: 10vw;
+    padding: 2vw;
+}
+.redesSociais{
+    width: 20vw;
+    text-align: center;
+}
+.redesSociais img{
+    width: 1.2vw;
+    margin: 10px;
+}
+.abasRodape{
+    width: 60vw;
+}
+.abasRodape ul{
+    margin: auto;
+    display: table;
+}
+.abasRodape li{
+    display: table-cell;
+    padding: 20px;
+}
+.abasRodape a{
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.8vw;
+    text-decoration: none;
+    margin: 10px;
+}
